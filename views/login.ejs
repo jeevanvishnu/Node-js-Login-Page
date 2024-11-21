@@ -1,0 +1,17 @@
+<section>
+    <section class="container  translate-y-48 w-[400px] h-[400px]  bg-[rgba(4,4,4,0.7)] border rounded-xl">
+        <form action="/login" method="post">
+            <div class="flex flex-col ">
+                <p class="text-red-600 text-center mt-2"><%=message%></p> 
+                <h2 class="text-center text-[2rem] mt-12 text-white font-bold font-sans">Login</h2>
+                <input type="text" name="name" placeholder="User Name" class="mt-4 p-3 mb-3 outline-none w-[23rem] ml-4 border rounded-full" required>
+                <input  type="password" name="password" placeholder="password" class=" p-3 mb-7 outline-none w-[23rem] ml-4 border rounded-full" required>
+                <button type="submit" class="mb-3 bg-white text-black text-center ml-[9.5rem] mr-[9.5rem] p-3 font-sans border rounded-md">Submit</button>
+                <p class="text-center font-sans text-white">Do You Have Any Account?Register</p>
+                <p class="text-center text-green-600 font-sans"><p><%=message.sucess%></p>
+            </div>
+    </section>
+</section>
+
+   
+</form>
